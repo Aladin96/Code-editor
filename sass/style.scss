@@ -1,0 +1,179 @@
+@import 'reset';
+@import 'mixins';
+
+body {
+  background: #2F3129;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: -30px;
+  color: #fff;
+
+  span {
+    display: inline-block;
+  }
+
+  &:hover {
+    span {
+      &:nth-child(1) {
+        @include prefixes(animation, MyAnimation 0.85s 0.2s infinite ease);
+      }
+
+      &:nth-child(2) {
+        @include prefixes(animation, MyAnimation 0.85s 0.3s infinite ease);
+      }
+
+      &:nth-child(3) {
+        @include prefixes(animation, MyAnimation 0.85s 0.4s infinite ease);
+      }
+
+      &:nth-child(4) {
+        @include prefixes(animation, MyAnimation 0.85s 0.5s infinite ease);
+      }
+
+      &:nth-child(5) {
+        @include prefixes(animation, MyAnimation 0.85s 0.6s infinite ease);
+      }
+
+      &:nth-child(6) {
+        @include prefixes(animation, MyAnimation 0.85s 0.7s infinite ease);
+      }
+
+      &:nth-child(7) {
+        @include prefixes(animation, MyAnimation 0.85s 0.8s infinite ease);
+      }
+
+      &:nth-child(8) {
+        @include prefixes(animation, MyAnimation 0.85s 0.9s infinite ease);
+      }
+
+      &:nth-child(9) {
+        @include prefixes(animation, MyAnimation 0.85s 0.10s infinite ease);
+      }
+      @include keyFrames(MyAnimation) {
+        from {
+          opacity: 1;
+          @include prefixes(transform, translateY(-10px));
+        }
+
+        to {
+          opacity: 0;
+          @include prefixes(transform, translateY(18px));
+        }
+      }
+    }
+  }
+}
+
+.jumbotron {
+  background: transparent;
+}
+
+.nav-tabs {
+  border: none;
+
+  .nav-link {
+    background: #232323;
+    margin-right: 10px;
+    color: #6f716a;
+    border: none;
+    border-radius: 0;
+
+    &.active {
+      background: #141414;
+      border: none;
+      color: #fff;
+      border-radius: 0;
+    }
+  }
+}
+
+.theme_color {
+  position: absolute;
+  right: 7px;
+  top: -11px;
+  margin-top: 10px;
+
+  .dark {
+    background: #141414;
+    color: #fff;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 12px;
+  }
+
+  .light {
+    background: #e4e4e4;
+    margin-left: -4px;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 11px;
+  }
+}
+
+.editor {
+  width: 100%;
+  height: 500px;
+  font-size: 16px;
+}
+
+#run {
+  background: #e3b04b;
+  color: #fff;
+  padding: 7px 25px;
+  margin-top: 10px;
+  @include prefixes(transition, all 0.4s ease);
+
+  &:hover {
+    background: #8a6620;
+  }
+  margin-bottom: 20px;
+}
+
+.output {
+  background: #232323;
+  margin-right: 10px;
+  color: #6f716a;
+  border: none;
+  border-radius: 0;
+  &:hover{
+    color: #6f716a;
+  }
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+  background: #fff;
+  border: 0;
+}
+
+.activeDark{
+  background: #000!important;
+  color: #fff !important
+}
+.activeLight{
+  background: #a5a5a5!important;
+  color: #fff !important
+}
+
+footer{
+  margin-top: -60px;
+  color: #fff;
+  .heart{
+    display: inline-block;
+    @include prefixes(animation, Heart .45s cubic-bezier(0.55, 0.5, 0, 1.01) infinite);
+    @include keyFrames(Heart) {
+      from {
+        @include prefixes(transform, scale(1));
+      }
+
+      to {
+        @include prefixes(transform, scale(1.3));
+      }
+    }
+  }
+}

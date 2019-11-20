@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Aladin's Editor</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<h1 class="text-center">
+   <span>M</span>
+   <span>y</span>
+   <span></span>
+   <span>E</span>
+   <span>d</span>
+   <span>i</span>
+   <span>t</span>
+   <span>o</span>
+   <span>r</span>
+ </h1>
+
+  <div class="container-fluid jumbotron">
+
+    <div class="row">
+      <div class="col-md-7 m-0 p-0">
+        <!-- Button Dark & Light -->
+
+        <div class="theme_color shadow">
+          <button class="btn dark" data-active="true">Dark</button>
+          <button class="btn light" data-active="false">Light</button>
+        </div>
+
+        <!-- Navigation Between the Editor Codes -->
+
+        <ul class="nav nav-tabs" id="tabulation" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="html-tab" data-toggle="tab" href="#html" role="tab" aria-controls="html" aria-selected="true">HTML</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="css-tab" data-toggle="tab" href="#css" role="tab" aria-controls="css" aria-selected="false">CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="js-tab" data-toggle="tab" href="#js" role="tab" aria-controls="js" aria-selected="false">JS</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="tabulation">
+
+          <!-- Html Editor -->
+          <div class="tab-pane fade show active" id="html" role="tabpanel" aria-labelledby="html-tab">
+            <div class="editor" id="editorHtml"></div>
+          </div>
+
+          <!-- Css Editor -->
+          <div class="tab-pane fade" id="css" role="tabpanel" aria-labelledby="css-tab">
+            <div class="editor" id="editorCss"></div>
+          </div>
+
+          <!-- Js Editor -->
+          <div class="tab-pane fade" id="js" role="js" aria-labelledby="js-tab">
+            <div class="editor" id="editorJs"></div>
+          </div>
+
+        </div><!-- End .tab-content -->
+
+        <button class="btn" id="run">Run</button>
+
+      </div>
+
+      <div class="col-md-5 p-0 m-0">
+        <button class="btn output">Output</button>
+        <iframe id='iframe'></iframe>
+      </div>
+
+    </div><!-- End .Row -->
+  </div><!-- End .Container-Fluid -->
+
+  <footer class="text-center">
+    <p>Created by <a href="https://www.facebook.com/elmagnifico.dz" target="_blank">Alaaeddine</a> With <span class="heart">&#10084;</span></p>
+  </footer>
+
+</body>
+
+<!-- Jquery -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+
+<!-- ACE JS -->
+<script src="assets/js/src/ace.js" type="text/javascript"></script>
+
+<!-- Bootstrap -->
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js" type="text/javascript"></script>
+
+</html>

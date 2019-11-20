@@ -1,0 +1,20 @@
+a{
+  outline: none;
+  &:hover,
+  &active,
+  &focus{
+    text-decoration: none;
+    outline: none;
+  }
+}
+.btn{
+  outline: none;
+  &:focus{
+    outline: none;
+    border: none
+  }
+}
+
+.jumbotron{
+  background: transparent
+}

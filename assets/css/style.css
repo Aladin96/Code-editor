@@ -1,0 +1,253 @@
+a {
+  outline: none; }
+  a:hover, aactive, afocus {
+    text-decoration: none;
+    outline: none; }
+
+.btn {
+  outline: none; }
+  .btn:focus {
+    outline: none;
+    border: none; }
+
+.jumbotron {
+  background: transparent; }
+
+body {
+  background: #2F3129; }
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: -30px;
+  color: #fff; }
+  h1 span {
+    display: inline-block; }
+  h1:hover span:nth-child(1) {
+    -webkit-animation: MyAnimation 0.85s 0.2s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.2s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.2s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.2s infinite ease;
+    animation: MyAnimation 0.85s 0.2s infinite ease; }
+  h1:hover span:nth-child(2) {
+    -webkit-animation: MyAnimation 0.85s 0.3s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.3s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.3s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.3s infinite ease;
+    animation: MyAnimation 0.85s 0.3s infinite ease; }
+  h1:hover span:nth-child(3) {
+    -webkit-animation: MyAnimation 0.85s 0.4s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.4s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.4s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.4s infinite ease;
+    animation: MyAnimation 0.85s 0.4s infinite ease; }
+  h1:hover span:nth-child(4) {
+    -webkit-animation: MyAnimation 0.85s 0.5s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.5s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.5s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.5s infinite ease;
+    animation: MyAnimation 0.85s 0.5s infinite ease; }
+  h1:hover span:nth-child(5) {
+    -webkit-animation: MyAnimation 0.85s 0.6s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.6s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.6s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.6s infinite ease;
+    animation: MyAnimation 0.85s 0.6s infinite ease; }
+  h1:hover span:nth-child(6) {
+    -webkit-animation: MyAnimation 0.85s 0.7s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.7s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.7s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.7s infinite ease;
+    animation: MyAnimation 0.85s 0.7s infinite ease; }
+  h1:hover span:nth-child(7) {
+    -webkit-animation: MyAnimation 0.85s 0.8s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.8s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.8s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.8s infinite ease;
+    animation: MyAnimation 0.85s 0.8s infinite ease; }
+  h1:hover span:nth-child(8) {
+    -webkit-animation: MyAnimation 0.85s 0.9s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.9s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.9s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.9s infinite ease;
+    animation: MyAnimation 0.85s 0.9s infinite ease; }
+  h1:hover span:nth-child(9) {
+    -webkit-animation: MyAnimation 0.85s 0.1s infinite ease;
+    -moz-animation: MyAnimation 0.85s 0.1s infinite ease;
+    -o-animation: MyAnimation 0.85s 0.1s infinite ease;
+    -ms-animation: MyAnimation 0.85s 0.1s infinite ease;
+    animation: MyAnimation 0.85s 0.1s infinite ease; }
+@-webkit-keyframes MyAnimation {
+  from {
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(18px);
+    -moz-transform: translateY(18px);
+    -o-transform: translateY(18px);
+    -ms-transform: translateY(18px);
+    transform: translateY(18px); } }
+@-moz-keyframes MyAnimation {
+  from {
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(18px);
+    -moz-transform: translateY(18px);
+    -o-transform: translateY(18px);
+    -ms-transform: translateY(18px);
+    transform: translateY(18px); } }
+@keyframes MyAnimation {
+  from {
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(18px);
+    -moz-transform: translateY(18px);
+    -o-transform: translateY(18px);
+    -ms-transform: translateY(18px);
+    transform: translateY(18px); } }
+.jumbotron {
+  background: transparent; }
+
+.nav-tabs {
+  border: none; }
+  .nav-tabs .nav-link {
+    background: #232323;
+    margin-right: 10px;
+    color: #6f716a;
+    border: none;
+    border-radius: 0; }
+    .nav-tabs .nav-link.active {
+      background: #141414;
+      border: none;
+      color: #fff;
+      border-radius: 0; }
+
+.theme_color {
+  position: absolute;
+  right: 7px;
+  top: -11px;
+  margin-top: 10px; }
+  .theme_color .dark {
+    background: #141414;
+    color: #fff;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 12px; }
+  .theme_color .light {
+    background: #e4e4e4;
+    margin-left: -4px;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 11px; }
+
+.editor {
+  width: 100%;
+  height: 500px;
+  font-size: 16px; }
+
+#run {
+  background: #e3b04b;
+  color: #fff;
+  padding: 7px 25px;
+  margin-top: 10px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-bottom: 20px; }
+  #run:hover {
+    background: #8a6620; }
+
+.output {
+  background: #232323;
+  margin-right: 10px;
+  color: #6f716a;
+  border: none;
+  border-radius: 0; }
+  .output:hover {
+    color: #6f716a; }
+
+iframe {
+  width: 100%;
+  height: 500px;
+  background: #fff;
+  border: 0; }
+
+.activeDark {
+  background: #000 !important;
+  color: #fff !important; }
+
+.activeLight {
+  background: #a5a5a5 !important;
+  color: #fff !important; }
+
+footer {
+  margin-top: -60px;
+  color: #fff; }
+  footer .heart {
+    display: inline-block;
+    -webkit-animation: Heart 0.45s cubic-bezier(0.55, 0.5, 0, 1.01) infinite;
+    -moz-animation: Heart 0.45s cubic-bezier(0.55, 0.5, 0, 1.01) infinite;
+    -o-animation: Heart 0.45s cubic-bezier(0.55, 0.5, 0, 1.01) infinite;
+    -ms-animation: Heart 0.45s cubic-bezier(0.55, 0.5, 0, 1.01) infinite;
+    animation: Heart 0.45s cubic-bezier(0.55, 0.5, 0, 1.01) infinite; }
+@-webkit-keyframes Heart {
+  from {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  to {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); } }
+@-moz-keyframes Heart {
+  from {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  to {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); } }
+@keyframes Heart {
+  from {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  to {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); } }
+
+/*# sourceMappingURL=style.css.map */
