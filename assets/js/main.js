@@ -9,6 +9,16 @@ $(document).ready(function() {
 
 // Defautl HTML
 
+  let defautlHTML = `<!DOCTYPE html>
+    <html>
+      <head>
+        <title></title>
+      </head>
+      <body>
+
+      </body>
+  </html>`;
+
   editorHtml.setTheme("ace/theme/twilight");
 
   editorHtml.session.setMode("ace/mode/html");
@@ -17,16 +27,13 @@ $(document).ready(function() {
 
   editorHtml.setShowPrintMargin();
 
-  editorHtml.setValue("<!DOCTYPE html>\n"
-                  + "<html> \n"
-                    + "\t\ <head> \n"
-                    + "\t \t  <title></title> \n"
-                    + "\t </head> \n"
-                    + "\t <body> \n\n"
-                    + "\t </body> \n"
-                  + "</html>");
+  editorHtml.setValue(defautlHTML);
 
   // Defautl CSS
+
+  let deafaultCSS = `body{
+
+  }`;
 
   editorCss.setTheme("ace/theme/twilight");
 
@@ -36,7 +43,7 @@ $(document).ready(function() {
 
   editorCss.setShowPrintMargin();
 
-  editorCss.setValue("body{}");
+  editorCss.setValue(deafaultCSS);
 
   // Defautl JS
 
