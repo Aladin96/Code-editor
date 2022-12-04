@@ -8,7 +8,7 @@ Edit Html, Css And Javascript code and view the result in the browser.
 ## DEMO
 [SEE DEMO HERE](https://aladinseditor.netlify.com/)
 
-## Software languages used
+## Software languages
 
 * HTML
 * CSS3
